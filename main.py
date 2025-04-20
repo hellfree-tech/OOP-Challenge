@@ -9,7 +9,7 @@ import time
 - The program is designed to be run in a terminal or command prompt, and it provides clear instructions for the user to follow.
 """
 
-def loading(action, petName=""):
+def loading(action, petName="bingo"):
     """Simulate loading time for pet actions."""
     if action == "teach":
         print(f"Teaching {petName} the new trick", end="")
